@@ -1,0 +1,3 @@
+[submodule "data/source/cdkg-challenge"]
+	path = data/source/cdkg-challenge
+	url = https://github.com/Connected-Data/cdkg-challenge.git
