@@ -1,0 +1,50 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://example.org/cdkg/LinguisticObject/podcast/23",
+  "type": "LinguisticObject",
+  "_label": "Systems That Learn And Reason Frank Van Harmelen",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300310137",
+      "type": "Type",
+      "_label": "Podcast"
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "carried_out_by": [
+      {
+        "id": "https://example.org/cdkg/Person/speaker/frank-van-harmelen",
+        "type": "Person",
+        "_label": "Frank van Harmelen"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "id": "https://example.org/cdkg/LinguisticObject/podcast/23/page/23",
+      "type": "LinguisticObject",
+      "_label": "Textual content of homepage",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "_label": "Homepage",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type",
+              "_label": "Web Page"
+            }
+          ],
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://pod.co/the-connected-data-podcast/systems-that-learn-and-reason-frank-van-harmelen",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

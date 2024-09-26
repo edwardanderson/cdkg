@@ -1,0 +1,24 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://example.org/cdkg/VisualItem/presentation/6",
+  "type": "VisualItem",
+  "_label": "Visual content of \"Graph Thinking\"",
+  "created_by": {
+    "id": "https://example.org/cdkg/Creation/presentation/6",
+    "type": "Creation",
+    "caused_by": [
+      {
+        "id": "https://example.org/cdkg/Activity/presentation/6",
+        "type": "Activity",
+        "_label": "Presentation of \"Graph Thinking\""
+      }
+    ]
+  },
+  "digitally_shown_by": [
+    {
+      "id": "https://example.org/cdkg/DigitalObject/recording/6",
+      "type": "DigitalObject",
+      "_label": "Recording of \"Graph Thinking\""
+    }
+  ]
+}

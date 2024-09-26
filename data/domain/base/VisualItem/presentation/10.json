@@ -1,0 +1,24 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://example.org/cdkg/VisualItem/presentation/10",
+  "type": "VisualItem",
+  "_label": "Visual content of \"Implementing Informed Consent with Knowledge Graphs\"",
+  "created_by": {
+    "id": "https://example.org/cdkg/Creation/presentation/10",
+    "type": "Creation",
+    "caused_by": [
+      {
+        "id": "https://example.org/cdkg/Activity/presentation/10",
+        "type": "Activity",
+        "_label": "Presentation of \"Implementing Informed Consent with Knowledge Graphs\""
+      }
+    ]
+  },
+  "digitally_shown_by": [
+    {
+      "id": "https://example.org/cdkg/DigitalObject/recording/10",
+      "type": "DigitalObject",
+      "_label": "Recording of \"Implementing Informed Consent with Knowledge Graphs\""
+    }
+  ]
+}

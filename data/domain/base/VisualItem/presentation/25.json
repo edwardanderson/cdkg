@@ -1,0 +1,24 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://example.org/cdkg/VisualItem/presentation/25",
+  "type": "VisualItem",
+  "_label": "Visual content of \"Graph Algorithms & Graph Machine Learning: Making Sense of Today's Choices\"",
+  "created_by": {
+    "id": "https://example.org/cdkg/Creation/presentation/25",
+    "type": "Creation",
+    "caused_by": [
+      {
+        "id": "https://example.org/cdkg/Activity/presentation/25",
+        "type": "Activity",
+        "_label": "Presentation of \"Graph Algorithms & Graph Machine Learning: Making Sense of Today's Choices\""
+      }
+    ]
+  },
+  "digitally_shown_by": [
+    {
+      "id": "https://example.org/cdkg/DigitalObject/recording/25",
+      "type": "DigitalObject",
+      "_label": "Recording of \"Graph Algorithms & Graph Machine Learning: Making Sense of Today's Choices\""
+    }
+  ]
+}

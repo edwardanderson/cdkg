@@ -1,0 +1,33 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://example.org/cdkg/DigitalObject/recording/14",
+  "type": "DigitalObject",
+  "_label": "Recording of \"Knowledge Graphs: Moving Beyond RDF\"",
+  "classified_as": [
+    {
+      "id": "https://vocab.getty.edu/aat/300028682",
+      "type": "Type",
+      "_label": "Video recording"
+    }
+  ],
+  "digitally_shows": [
+    {
+      "id": "https://example.org/cdkg/VisualItem/presentation/14",
+      "type": "VisualItem",
+      "_label": "Visual content of \"Knowledge Graphs: Moving Beyond RDF\""
+    }
+  ],
+  "digitally_carries": [
+    {
+      "id": "https://example.org/cdkg/LinguisticObject/presentation/14",
+      "type": "LinguisticObject",
+      "_label": "Textual content of \"Knowledge Graphs: Moving Beyond RDF\""
+    }
+  ],
+  "access_point": [
+    {
+      "id": "https://www.youtube.com/watch?v=lBvnxItuou4",
+      "type": "DigitalObject"
+    }
+  ]
+}

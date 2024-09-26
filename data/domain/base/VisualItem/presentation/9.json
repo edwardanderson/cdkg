@@ -1,0 +1,24 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://example.org/cdkg/VisualItem/presentation/9",
+  "type": "VisualItem",
+  "_label": "Visual content of \"Hybridization of Machine Learning and Operational Research is the future of AI\"",
+  "created_by": {
+    "id": "https://example.org/cdkg/Creation/presentation/9",
+    "type": "Creation",
+    "caused_by": [
+      {
+        "id": "https://example.org/cdkg/Activity/presentation/9",
+        "type": "Activity",
+        "_label": "Presentation of \"Hybridization of Machine Learning and Operational Research is the future of AI\""
+      }
+    ]
+  },
+  "digitally_shown_by": [
+    {
+      "id": "https://example.org/cdkg/DigitalObject/recording/9",
+      "type": "DigitalObject",
+      "_label": "Recording of \"Hybridization of Machine Learning and Operational Research is the future of AI\""
+    }
+  ]
+}

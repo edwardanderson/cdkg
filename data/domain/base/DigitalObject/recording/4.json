@@ -1,0 +1,33 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://example.org/cdkg/DigitalObject/recording/4",
+  "type": "DigitalObject",
+  "_label": "Recording of \"Knowledge Mesh: From Data Silos to Data Fabric at Global 2000 Enterprises\"",
+  "classified_as": [
+    {
+      "id": "https://vocab.getty.edu/aat/300028682",
+      "type": "Type",
+      "_label": "Video recording"
+    }
+  ],
+  "digitally_shows": [
+    {
+      "id": "https://example.org/cdkg/VisualItem/presentation/4",
+      "type": "VisualItem",
+      "_label": "Visual content of \"Knowledge Mesh: From Data Silos to Data Fabric at Global 2000 Enterprises\""
+    }
+  ],
+  "digitally_carries": [
+    {
+      "id": "https://example.org/cdkg/LinguisticObject/presentation/4",
+      "type": "LinguisticObject",
+      "_label": "Textual content of \"Knowledge Mesh: From Data Silos to Data Fabric at Global 2000 Enterprises\""
+    }
+  ],
+  "access_point": [
+    {
+      "id": "https://www.youtube.com/watch?v=EyuBXiWcASQ",
+      "type": "DigitalObject"
+    }
+  ]
+}

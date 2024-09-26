@@ -1,0 +1,24 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://example.org/cdkg/VisualItem/presentation/13",
+  "type": "VisualItem",
+  "_label": "Visual content of \"Knowledge Graphs, Graph AI, & the Need for High performance Graph Computing\"",
+  "created_by": {
+    "id": "https://example.org/cdkg/Creation/presentation/13",
+    "type": "Creation",
+    "caused_by": [
+      {
+        "id": "https://example.org/cdkg/Activity/presentation/13",
+        "type": "Activity",
+        "_label": "Presentation of \"Knowledge Graphs, Graph AI, & the Need for High performance Graph Computing\""
+      }
+    ]
+  },
+  "digitally_shown_by": [
+    {
+      "id": "https://example.org/cdkg/DigitalObject/recording/13",
+      "type": "DigitalObject",
+      "_label": "Recording of \"Knowledge Graphs, Graph AI, & the Need for High performance Graph Computing\""
+    }
+  ]
+}

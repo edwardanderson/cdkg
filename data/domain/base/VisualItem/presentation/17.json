@@ -1,0 +1,24 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://example.org/cdkg/VisualItem/presentation/17",
+  "type": "VisualItem",
+  "_label": "Visual content of \"Taxonomies: Connecting Data with Duct Tape\"",
+  "created_by": {
+    "id": "https://example.org/cdkg/Creation/presentation/17",
+    "type": "Creation",
+    "caused_by": [
+      {
+        "id": "https://example.org/cdkg/Activity/presentation/17",
+        "type": "Activity",
+        "_label": "Presentation of \"Taxonomies: Connecting Data with Duct Tape\""
+      }
+    ]
+  },
+  "digitally_shown_by": [
+    {
+      "id": "https://example.org/cdkg/DigitalObject/recording/17",
+      "type": "DigitalObject",
+      "_label": "Recording of \"Taxonomies: Connecting Data with Duct Tape\""
+    }
+  ]
+}

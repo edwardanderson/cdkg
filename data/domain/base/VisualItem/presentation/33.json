@@ -1,0 +1,24 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://example.org/cdkg/VisualItem/presentation/33",
+  "type": "VisualItem",
+  "_label": "Visual content of \"Knowledge Graphs as Hub for Data, Metadata and Content\"",
+  "created_by": {
+    "id": "https://example.org/cdkg/Creation/presentation/33",
+    "type": "Creation",
+    "caused_by": [
+      {
+        "id": "https://example.org/cdkg/Activity/presentation/33",
+        "type": "Activity",
+        "_label": "Presentation of \"Knowledge Graphs as Hub for Data, Metadata and Content\""
+      }
+    ]
+  },
+  "digitally_shown_by": [
+    {
+      "id": "https://example.org/cdkg/DigitalObject/recording/33",
+      "type": "DigitalObject",
+      "_label": "Recording of \"Knowledge Graphs as Hub for Data, Metadata and Content\""
+    }
+  ]
+}

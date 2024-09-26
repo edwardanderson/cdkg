@@ -1,0 +1,24 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://example.org/cdkg/VisualItem/presentation/14",
+  "type": "VisualItem",
+  "_label": "Visual content of \"Knowledge Graphs: Moving Beyond RDF\"",
+  "created_by": {
+    "id": "https://example.org/cdkg/Creation/presentation/14",
+    "type": "Creation",
+    "caused_by": [
+      {
+        "id": "https://example.org/cdkg/Activity/presentation/14",
+        "type": "Activity",
+        "_label": "Presentation of \"Knowledge Graphs: Moving Beyond RDF\""
+      }
+    ]
+  },
+  "digitally_shown_by": [
+    {
+      "id": "https://example.org/cdkg/DigitalObject/recording/14",
+      "type": "DigitalObject",
+      "_label": "Recording of \"Knowledge Graphs: Moving Beyond RDF\""
+    }
+  ]
+}

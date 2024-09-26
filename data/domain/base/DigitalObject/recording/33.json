@@ -1,0 +1,33 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://example.org/cdkg/DigitalObject/recording/33",
+  "type": "DigitalObject",
+  "_label": "Recording of \"Knowledge Graphs as Hub for Data, Metadata and Content\"",
+  "classified_as": [
+    {
+      "id": "https://vocab.getty.edu/aat/300028682",
+      "type": "Type",
+      "_label": "Video recording"
+    }
+  ],
+  "digitally_shows": [
+    {
+      "id": "https://example.org/cdkg/VisualItem/presentation/33",
+      "type": "VisualItem",
+      "_label": "Visual content of \"Knowledge Graphs as Hub for Data, Metadata and Content\""
+    }
+  ],
+  "digitally_carries": [
+    {
+      "id": "https://example.org/cdkg/LinguisticObject/presentation/33",
+      "type": "LinguisticObject",
+      "_label": "Textual content of \"Knowledge Graphs as Hub for Data, Metadata and Content\""
+    }
+  ],
+  "access_point": [
+    {
+      "id": "https://www.youtube.com/watch?v=zWqd9sdvO9Q",
+      "type": "DigitalObject"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://example.org/cdkg/VisualItem/presentation/38",
+  "type": "VisualItem",
+  "_label": "Visual content of \"Van Gogh Worldwide: Constructing and searching a knowledge graph of linked art\"",
+  "created_by": {
+    "id": "https://example.org/cdkg/Creation/presentation/38",
+    "type": "Creation",
+    "caused_by": [
+      {
+        "id": "https://example.org/cdkg/Activity/presentation/38",
+        "type": "Activity",
+        "_label": "Presentation of \"Van Gogh Worldwide: Constructing and searching a knowledge graph of linked art\""
+      }
+    ]
+  },
+  "digitally_shown_by": [
+    {
+      "id": "https://example.org/cdkg/DigitalObject/recording/38",
+      "type": "DigitalObject",
+      "_label": "Recording of \"Van Gogh Worldwide: Constructing and searching a knowledge graph of linked art\""
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools >= 66.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cdkg"
+urls = { project-url = "https://github.com/edwardanderson/cdkg" }
+dependencies = [
+    "cromulent@git+https://github.com/thegetty/crom",
+    "lxml",
+    "rdflib",
+    "requests",
+    "srt"
+]
+dynamic = ["version"]
+
+[tool.setuptools.packages.find]
+
+[tool.setuptools.dynamic]
+version = {file = "VERSION"}

@@ -1,0 +1,33 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://example.org/cdkg/DigitalObject/recording/3",
+  "type": "DigitalObject",
+  "_label": "Recording of \"One graph to bind them all! Linking data & apps for event-driven interoperability\"",
+  "classified_as": [
+    {
+      "id": "https://vocab.getty.edu/aat/300028682",
+      "type": "Type",
+      "_label": "Video recording"
+    }
+  ],
+  "digitally_shows": [
+    {
+      "id": "https://example.org/cdkg/VisualItem/presentation/3",
+      "type": "VisualItem",
+      "_label": "Visual content of \"One graph to bind them all! Linking data & apps for event-driven interoperability\""
+    }
+  ],
+  "digitally_carries": [
+    {
+      "id": "https://example.org/cdkg/LinguisticObject/presentation/3",
+      "type": "LinguisticObject",
+      "_label": "Textual content of \"One graph to bind them all! Linking data & apps for event-driven interoperability\""
+    }
+  ],
+  "access_point": [
+    {
+      "id": "https://www.youtube.com/watch?v=kub4BL5003Y",
+      "type": "DigitalObject"
+    }
+  ]
+}

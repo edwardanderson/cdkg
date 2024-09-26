@@ -1,0 +1,33 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://example.org/cdkg/DigitalObject/recording/18",
+  "type": "DigitalObject",
+  "_label": "Recording of \"UBS Helix Knowledge Graph: The Power of Information\"",
+  "classified_as": [
+    {
+      "id": "https://vocab.getty.edu/aat/300028682",
+      "type": "Type",
+      "_label": "Video recording"
+    }
+  ],
+  "digitally_shows": [
+    {
+      "id": "https://example.org/cdkg/VisualItem/presentation/18",
+      "type": "VisualItem",
+      "_label": "Visual content of \"UBS Helix Knowledge Graph: The Power of Information\""
+    }
+  ],
+  "digitally_carries": [
+    {
+      "id": "https://example.org/cdkg/LinguisticObject/presentation/18",
+      "type": "LinguisticObject",
+      "_label": "Textual content of \"UBS Helix Knowledge Graph: The Power of Information\""
+    }
+  ],
+  "access_point": [
+    {
+      "id": "https://www.youtube.com/watch?v=cod2Al7ooZs",
+      "type": "DigitalObject"
+    }
+  ]
+}

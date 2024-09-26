@@ -1,0 +1,33 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://example.org/cdkg/DigitalObject/recording/31",
+  "type": "DigitalObject",
+  "_label": "Recording of \"GraphEDM: A Unified Framework for Machine Learning on Graphs\"",
+  "classified_as": [
+    {
+      "id": "https://vocab.getty.edu/aat/300028682",
+      "type": "Type",
+      "_label": "Video recording"
+    }
+  ],
+  "digitally_shows": [
+    {
+      "id": "https://example.org/cdkg/VisualItem/presentation/31",
+      "type": "VisualItem",
+      "_label": "Visual content of \"GraphEDM: A Unified Framework for Machine Learning on Graphs\""
+    }
+  ],
+  "digitally_carries": [
+    {
+      "id": "https://example.org/cdkg/LinguisticObject/presentation/31",
+      "type": "LinguisticObject",
+      "_label": "Textual content of \"GraphEDM: A Unified Framework for Machine Learning on Graphs\""
+    }
+  ],
+  "access_point": [
+    {
+      "id": "https://www.youtube.com/watch?v=F-JYqMCWaaM",
+      "type": "DigitalObject"
+    }
+  ]
+}

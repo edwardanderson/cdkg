@@ -1,0 +1,33 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://example.org/cdkg/DigitalObject/recording/13",
+  "type": "DigitalObject",
+  "_label": "Recording of \"Knowledge Graphs, Graph AI, & the Need for High performance Graph Computing\"",
+  "classified_as": [
+    {
+      "id": "https://vocab.getty.edu/aat/300028682",
+      "type": "Type",
+      "_label": "Video recording"
+    }
+  ],
+  "digitally_shows": [
+    {
+      "id": "https://example.org/cdkg/VisualItem/presentation/13",
+      "type": "VisualItem",
+      "_label": "Visual content of \"Knowledge Graphs, Graph AI, & the Need for High performance Graph Computing\""
+    }
+  ],
+  "digitally_carries": [
+    {
+      "id": "https://example.org/cdkg/LinguisticObject/presentation/13",
+      "type": "LinguisticObject",
+      "_label": "Textual content of \"Knowledge Graphs, Graph AI, & the Need for High performance Graph Computing\""
+    }
+  ],
+  "access_point": [
+    {
+      "id": "https://www.youtube.com/watch?v=q5DDKKx15so",
+      "type": "DigitalObject"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://example.org/cdkg/Person/speaker/omar-khan",
+  "type": "Person",
+  "_label": "Omar Khan",
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Omar Khan"
+    }
+  ],
+  "member_of": [
+    {
+      "id": "https://example.org/cdkg/Group/speaker/omar-khan-and-david-newman",
+      "type": "Group",
+      "_label": "Omar Khan and David Newman"
+    }
+  ]
+}

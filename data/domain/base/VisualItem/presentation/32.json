@@ -1,0 +1,24 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://example.org/cdkg/VisualItem/presentation/32",
+  "type": "VisualItem",
+  "_label": "Visual content of \"Secret Knowledge: Visualizing Complexity\"",
+  "created_by": {
+    "id": "https://example.org/cdkg/Creation/presentation/32",
+    "type": "Creation",
+    "caused_by": [
+      {
+        "id": "https://example.org/cdkg/Activity/presentation/32",
+        "type": "Activity",
+        "_label": "Presentation of \"Secret Knowledge: Visualizing Complexity\""
+      }
+    ]
+  },
+  "digitally_shown_by": [
+    {
+      "id": "https://example.org/cdkg/DigitalObject/recording/32",
+      "type": "DigitalObject",
+      "_label": "Recording of \"Secret Knowledge: Visualizing Complexity\""
+    }
+  ]
+}

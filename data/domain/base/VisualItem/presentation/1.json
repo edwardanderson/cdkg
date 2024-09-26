@@ -1,0 +1,24 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://example.org/cdkg/VisualItem/presentation/1",
+  "type": "VisualItem",
+  "_label": "Visual content of \"Applying Semantic Web Standards for Knowledge Representation at Elsevier\"",
+  "created_by": {
+    "id": "https://example.org/cdkg/Creation/presentation/1",
+    "type": "Creation",
+    "caused_by": [
+      {
+        "id": "https://example.org/cdkg/Activity/presentation/1",
+        "type": "Activity",
+        "_label": "Presentation of \"Applying Semantic Web Standards for Knowledge Representation at Elsevier\""
+      }
+    ]
+  },
+  "digitally_shown_by": [
+    {
+      "id": "https://example.org/cdkg/DigitalObject/recording/1",
+      "type": "DigitalObject",
+      "_label": "Recording of \"Applying Semantic Web Standards for Knowledge Representation at Elsevier\""
+    }
+  ]
+}

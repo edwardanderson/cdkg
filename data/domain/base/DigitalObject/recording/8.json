@@ -1,0 +1,33 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://example.org/cdkg/DigitalObject/recording/8",
+  "type": "DigitalObject",
+  "_label": "Recording of \"Humans and the Graph - Inspiring and empowering GraphQL adoption\"",
+  "classified_as": [
+    {
+      "id": "https://vocab.getty.edu/aat/300028682",
+      "type": "Type",
+      "_label": "Video recording"
+    }
+  ],
+  "digitally_shows": [
+    {
+      "id": "https://example.org/cdkg/VisualItem/presentation/8",
+      "type": "VisualItem",
+      "_label": "Visual content of \"Humans and the Graph - Inspiring and empowering GraphQL adoption\""
+    }
+  ],
+  "digitally_carries": [
+    {
+      "id": "https://example.org/cdkg/LinguisticObject/presentation/8",
+      "type": "LinguisticObject",
+      "_label": "Textual content of \"Humans and the Graph - Inspiring and empowering GraphQL adoption\""
+    }
+  ],
+  "access_point": [
+    {
+      "id": "https://www.youtube.com/watch?v=i9sOdhA24nM",
+      "type": "DigitalObject"
+    }
+  ]
+}

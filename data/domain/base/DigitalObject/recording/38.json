@@ -1,0 +1,33 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://example.org/cdkg/DigitalObject/recording/38",
+  "type": "DigitalObject",
+  "_label": "Recording of \"Van Gogh Worldwide: Constructing and searching a knowledge graph of linked art\"",
+  "classified_as": [
+    {
+      "id": "https://vocab.getty.edu/aat/300028682",
+      "type": "Type",
+      "_label": "Video recording"
+    }
+  ],
+  "digitally_shows": [
+    {
+      "id": "https://example.org/cdkg/VisualItem/presentation/38",
+      "type": "VisualItem",
+      "_label": "Visual content of \"Van Gogh Worldwide: Constructing and searching a knowledge graph of linked art\""
+    }
+  ],
+  "digitally_carries": [
+    {
+      "id": "https://example.org/cdkg/LinguisticObject/presentation/38",
+      "type": "LinguisticObject",
+      "_label": "Textual content of \"Van Gogh Worldwide: Constructing and searching a knowledge graph of linked art\""
+    }
+  ],
+  "access_point": [
+    {
+      "id": "https://www.youtube.com/watch?v=QgnDyFS0e5s",
+      "type": "DigitalObject"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://example.org/cdkg/VisualItem/presentation/29",
+  "type": "VisualItem",
+  "_label": "Visual content of \"DBpedia Databus: A platform to evolve knowledge and AI from versioned web files\"",
+  "created_by": {
+    "id": "https://example.org/cdkg/Creation/presentation/29",
+    "type": "Creation",
+    "caused_by": [
+      {
+        "id": "https://example.org/cdkg/Activity/presentation/29",
+        "type": "Activity",
+        "_label": "Presentation of \"DBpedia Databus: A platform to evolve knowledge and AI from versioned web files\""
+      }
+    ]
+  },
+  "digitally_shown_by": [
+    {
+      "id": "https://example.org/cdkg/DigitalObject/recording/29",
+      "type": "DigitalObject",
+      "_label": "Recording of \"DBpedia Databus: A platform to evolve knowledge and AI from versioned web files\""
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://example.org/cdkg/VisualItem/presentation/15",
+  "type": "VisualItem",
+  "_label": "Visual content of \"Legal Knowledge Graphs\"",
+  "created_by": {
+    "id": "https://example.org/cdkg/Creation/presentation/15",
+    "type": "Creation",
+    "caused_by": [
+      {
+        "id": "https://example.org/cdkg/Activity/presentation/15",
+        "type": "Activity",
+        "_label": "Presentation of \"Legal Knowledge Graphs\""
+      }
+    ]
+  },
+  "digitally_shown_by": [
+    {
+      "id": "https://example.org/cdkg/DigitalObject/recording/15",
+      "type": "DigitalObject",
+      "_label": "Recording of \"Legal Knowledge Graphs\""
+    }
+  ]
+}

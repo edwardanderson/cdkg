@@ -1,0 +1,24 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://example.org/cdkg/VisualItem/presentation/18",
+  "type": "VisualItem",
+  "_label": "Visual content of \"UBS Helix Knowledge Graph: The Power of Information\"",
+  "created_by": {
+    "id": "https://example.org/cdkg/Creation/presentation/18",
+    "type": "Creation",
+    "caused_by": [
+      {
+        "id": "https://example.org/cdkg/Activity/presentation/18",
+        "type": "Activity",
+        "_label": "Presentation of \"UBS Helix Knowledge Graph: The Power of Information\""
+      }
+    ]
+  },
+  "digitally_shown_by": [
+    {
+      "id": "https://example.org/cdkg/DigitalObject/recording/18",
+      "type": "DigitalObject",
+      "_label": "Recording of \"UBS Helix Knowledge Graph: The Power of Information\""
+    }
+  ]
+}

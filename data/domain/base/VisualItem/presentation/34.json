@@ -1,0 +1,24 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://example.org/cdkg/VisualItem/presentation/34",
+  "type": "VisualItem",
+  "_label": "Visual content of \"Modelling regulation requirements using SHACL\"",
+  "created_by": {
+    "id": "https://example.org/cdkg/Creation/presentation/34",
+    "type": "Creation",
+    "caused_by": [
+      {
+        "id": "https://example.org/cdkg/Activity/presentation/34",
+        "type": "Activity",
+        "_label": "Presentation of \"Modelling regulation requirements using SHACL\""
+      }
+    ]
+  },
+  "digitally_shown_by": [
+    {
+      "id": "https://example.org/cdkg/DigitalObject/recording/34",
+      "type": "DigitalObject",
+      "_label": "Recording of \"Modelling regulation requirements using SHACL\""
+    }
+  ]
+}

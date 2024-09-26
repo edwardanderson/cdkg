@@ -1,0 +1,33 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://example.org/cdkg/DigitalObject/recording/32",
+  "type": "DigitalObject",
+  "_label": "Recording of \"Secret Knowledge: Visualizing Complexity\"",
+  "classified_as": [
+    {
+      "id": "https://vocab.getty.edu/aat/300028682",
+      "type": "Type",
+      "_label": "Video recording"
+    }
+  ],
+  "digitally_shows": [
+    {
+      "id": "https://example.org/cdkg/VisualItem/presentation/32",
+      "type": "VisualItem",
+      "_label": "Visual content of \"Secret Knowledge: Visualizing Complexity\""
+    }
+  ],
+  "digitally_carries": [
+    {
+      "id": "https://example.org/cdkg/LinguisticObject/presentation/32",
+      "type": "LinguisticObject",
+      "_label": "Textual content of \"Secret Knowledge: Visualizing Complexity\""
+    }
+  ],
+  "access_point": [
+    {
+      "id": "https://www.youtube.com/watch?v=RKLFPZhzfkw",
+      "type": "DigitalObject"
+    }
+  ]
+}

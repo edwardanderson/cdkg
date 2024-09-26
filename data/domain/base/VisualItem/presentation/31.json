@@ -1,0 +1,24 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://example.org/cdkg/VisualItem/presentation/31",
+  "type": "VisualItem",
+  "_label": "Visual content of \"GraphEDM: A Unified Framework for Machine Learning on Graphs\"",
+  "created_by": {
+    "id": "https://example.org/cdkg/Creation/presentation/31",
+    "type": "Creation",
+    "caused_by": [
+      {
+        "id": "https://example.org/cdkg/Activity/presentation/31",
+        "type": "Activity",
+        "_label": "Presentation of \"GraphEDM: A Unified Framework for Machine Learning on Graphs\""
+      }
+    ]
+  },
+  "digitally_shown_by": [
+    {
+      "id": "https://example.org/cdkg/DigitalObject/recording/31",
+      "type": "DigitalObject",
+      "_label": "Recording of \"GraphEDM: A Unified Framework for Machine Learning on Graphs\""
+    }
+  ]
+}

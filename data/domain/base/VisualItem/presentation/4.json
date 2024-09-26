@@ -1,0 +1,24 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://example.org/cdkg/VisualItem/presentation/4",
+  "type": "VisualItem",
+  "_label": "Visual content of \"Knowledge Mesh: From Data Silos to Data Fabric at Global 2000 Enterprises\"",
+  "created_by": {
+    "id": "https://example.org/cdkg/Creation/presentation/4",
+    "type": "Creation",
+    "caused_by": [
+      {
+        "id": "https://example.org/cdkg/Activity/presentation/4",
+        "type": "Activity",
+        "_label": "Presentation of \"Knowledge Mesh: From Data Silos to Data Fabric at Global 2000 Enterprises\""
+      }
+    ]
+  },
+  "digitally_shown_by": [
+    {
+      "id": "https://example.org/cdkg/DigitalObject/recording/4",
+      "type": "DigitalObject",
+      "_label": "Recording of \"Knowledge Mesh: From Data Silos to Data Fabric at Global 2000 Enterprises\""
+    }
+  ]
+}

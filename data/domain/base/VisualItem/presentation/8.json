@@ -1,0 +1,24 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://example.org/cdkg/VisualItem/presentation/8",
+  "type": "VisualItem",
+  "_label": "Visual content of \"Humans and the Graph - Inspiring and empowering GraphQL adoption\"",
+  "created_by": {
+    "id": "https://example.org/cdkg/Creation/presentation/8",
+    "type": "Creation",
+    "caused_by": [
+      {
+        "id": "https://example.org/cdkg/Activity/presentation/8",
+        "type": "Activity",
+        "_label": "Presentation of \"Humans and the Graph - Inspiring and empowering GraphQL adoption\""
+      }
+    ]
+  },
+  "digitally_shown_by": [
+    {
+      "id": "https://example.org/cdkg/DigitalObject/recording/8",
+      "type": "DigitalObject",
+      "_label": "Recording of \"Humans and the Graph - Inspiring and empowering GraphQL adoption\""
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://example.org/cdkg/Activity/presentation/38",
+  "type": "Activity",
+  "_label": "Presentation of \"Van Gogh Worldwide: Constructing and searching a knowledge graph of linked art\"",
+  "classified_as": [
+    {
+      "id": "https://vocab.getty.edu/aat/300258677",
+      "type": "Type",
+      "_label": "Presentation"
+    }
+  ],
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Van Gogh Worldwide: Constructing and searching a knowledge graph of linked art",
+      "language": [
+        {
+          "id": "http://vocab.getty.edu/aat/300388277",
+          "type": "Language",
+          "_label": "English"
+        }
+      ]
+    }
+  ],
+  "timespan": {
+    "type": "TimeSpan",
+    "identified_by": [
+      {
+        "type": "Name",
+        "content": "02/12/2020"
+      }
+    ],
+    "begin_of_the_begin": "2020-12-02T00:00:00",
+    "end_of_the_end": "2020-12-02T23:59:59",
+    "duration": {
+      "type": "Dimension",
+      "value": 33,
+      "unit": {
+        "id": "http://vocab.getty.edu/aat/300379240",
+        "type": "MeasurementUnit",
+        "_label": "Minutes"
+      },
+      "identified_by": [
+        {
+          "type": "Name",
+          "content": "33 min"
+        }
+      ]
+    }
+  },
+  "carried_out_by": [
+    {
+      "id": "https://example.org/cdkg/Person/speaker/michiel-hildebrand",
+      "type": "Person",
+      "_label": "Michiel Hildebrand"
+    }
+  ],
+  "part_of": [
+    {
+      "id": "https://example.org/cdkg/Event/programme/knowledge-connexions-2020",
+      "type": "Event",
+      "_label": "Knowledge Connexions 2020"
+    }
+  ],
+  "member_of": [
+    {
+      "id": "https://example.org/cdkg/Set/track/knowledge-graphs",
+      "type": "Set",
+      "_label": "Knowledge Graphs"
+    }
+  ],
+  "subject_of": [
+    {
+      "type": "LinguisticObject",
+      "_label": "Textual content of homepage",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "_label": "Homepage",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type",
+              "_label": "Web Page"
+            }
+          ],
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://knowledge-connexions-conference.heysummit.com/talks/michiel-hildebrand-presentation/",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "representation": [
+    {
+      "id": "https://example.org/cdkg/VisualItem/presentation/38",
+      "type": "VisualItem",
+      "_label": "Visual content of \"Van Gogh Worldwide: Constructing and searching a knowledge graph of linked art\""
+    }
+  ]
+}

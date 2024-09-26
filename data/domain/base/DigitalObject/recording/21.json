@@ -1,0 +1,33 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://example.org/cdkg/DigitalObject/recording/21",
+  "type": "DigitalObject",
+  "_label": "Recording of \"Reasoning for the Answer: Who is the Greatest Formula 1 Driver of all Time?\"",
+  "classified_as": [
+    {
+      "id": "https://vocab.getty.edu/aat/300028682",
+      "type": "Type",
+      "_label": "Video recording"
+    }
+  ],
+  "digitally_shows": [
+    {
+      "id": "https://example.org/cdkg/VisualItem/presentation/21",
+      "type": "VisualItem",
+      "_label": "Visual content of \"Reasoning for the Answer: Who is the Greatest Formula 1 Driver of all Time?\""
+    }
+  ],
+  "digitally_carries": [
+    {
+      "id": "https://example.org/cdkg/LinguisticObject/presentation/21",
+      "type": "LinguisticObject",
+      "_label": "Textual content of \"Reasoning for the Answer: Who is the Greatest Formula 1 Driver of all Time?\""
+    }
+  ],
+  "access_point": [
+    {
+      "id": "https://www.youtube.com/watch?v=YLJv87usKss",
+      "type": "DigitalObject"
+    }
+  ]
+}

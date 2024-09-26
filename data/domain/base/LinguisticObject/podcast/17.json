@@ -1,0 +1,50 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://example.org/cdkg/LinguisticObject/podcast/17",
+  "type": "LinguisticObject",
+  "_label": "Taxonomies Connecting Data With Duct Tape Mike Dillinger",
+  "classified_as": [
+    {
+      "id": "http://vocab.getty.edu/aat/300310137",
+      "type": "Type",
+      "_label": "Podcast"
+    }
+  ],
+  "created_by": {
+    "type": "Creation",
+    "carried_out_by": [
+      {
+        "id": "https://example.org/cdkg/Person/speaker/mike-dillinger",
+        "type": "Person",
+        "_label": "Mike Dillinger"
+      }
+    ]
+  },
+  "subject_of": [
+    {
+      "id": "https://example.org/cdkg/LinguisticObject/podcast/17/page/17",
+      "type": "LinguisticObject",
+      "_label": "Textual content of homepage",
+      "digitally_carried_by": [
+        {
+          "type": "DigitalObject",
+          "_label": "Homepage",
+          "classified_as": [
+            {
+              "id": "http://vocab.getty.edu/aat/300264578",
+              "type": "Type",
+              "_label": "Web Page"
+            }
+          ],
+          "format": "text/html",
+          "access_point": [
+            {
+              "id": "https://pod.co/the-connected-data-podcast/taxonomies-connecting-data-with-duct-tape-mike-dillinger",
+              "type": "DigitalObject"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

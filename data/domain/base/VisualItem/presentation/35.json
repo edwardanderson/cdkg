@@ -1,0 +1,24 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://example.org/cdkg/VisualItem/presentation/35",
+  "type": "VisualItem",
+  "_label": "Visual content of \"Protecting vital public health programs with AI and Knowledge Graphs\"",
+  "created_by": {
+    "id": "https://example.org/cdkg/Creation/presentation/35",
+    "type": "Creation",
+    "caused_by": [
+      {
+        "id": "https://example.org/cdkg/Activity/presentation/35",
+        "type": "Activity",
+        "_label": "Presentation of \"Protecting vital public health programs with AI and Knowledge Graphs\""
+      }
+    ]
+  },
+  "digitally_shown_by": [
+    {
+      "id": "https://example.org/cdkg/DigitalObject/recording/35",
+      "type": "DigitalObject",
+      "_label": "Recording of \"Protecting vital public health programs with AI and Knowledge Graphs\""
+    }
+  ]
+}

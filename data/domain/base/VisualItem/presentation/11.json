@@ -1,0 +1,24 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://example.org/cdkg/VisualItem/presentation/11",
+  "type": "VisualItem",
+  "_label": "Visual content of \"Introducing D3FEND: A Knowledge Graph of Cybersecurity Countermeasures\"",
+  "created_by": {
+    "id": "https://example.org/cdkg/Creation/presentation/11",
+    "type": "Creation",
+    "caused_by": [
+      {
+        "id": "https://example.org/cdkg/Activity/presentation/11",
+        "type": "Activity",
+        "_label": "Presentation of \"Introducing D3FEND: A Knowledge Graph of Cybersecurity Countermeasures\""
+      }
+    ]
+  },
+  "digitally_shown_by": [
+    {
+      "id": "https://example.org/cdkg/DigitalObject/recording/11",
+      "type": "DigitalObject",
+      "_label": "Recording of \"Introducing D3FEND: A Knowledge Graph of Cybersecurity Countermeasures\""
+    }
+  ]
+}

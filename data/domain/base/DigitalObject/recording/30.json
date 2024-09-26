@@ -1,0 +1,33 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://example.org/cdkg/DigitalObject/recording/30",
+  "type": "DigitalObject",
+  "_label": "Recording of \"Deep Learning on Graphs: Past, Present, And Future\"",
+  "classified_as": [
+    {
+      "id": "https://vocab.getty.edu/aat/300028682",
+      "type": "Type",
+      "_label": "Video recording"
+    }
+  ],
+  "digitally_shows": [
+    {
+      "id": "https://example.org/cdkg/VisualItem/presentation/30",
+      "type": "VisualItem",
+      "_label": "Visual content of \"Deep Learning on Graphs: Past, Present, And Future\""
+    }
+  ],
+  "digitally_carries": [
+    {
+      "id": "https://example.org/cdkg/LinguisticObject/presentation/30",
+      "type": "LinguisticObject",
+      "_label": "Textual content of \"Deep Learning on Graphs: Past, Present, And Future\""
+    }
+  ],
+  "access_point": [
+    {
+      "id": "https://www.youtube.com/watch?v=3VvNae5mHY0",
+      "type": "DigitalObject"
+    }
+  ]
+}

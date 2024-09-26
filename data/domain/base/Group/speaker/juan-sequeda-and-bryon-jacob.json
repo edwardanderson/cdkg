@@ -1,0 +1,19 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "https://example.org/cdkg/Group/speaker/juan-sequeda-and-bryon-jacob",
+  "type": "Group",
+  "_label": "Juan Sequeda & Bryon Jacob",
+  "identified_by": [
+    {
+      "type": "Name",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300404670",
+          "type": "Type",
+          "_label": "Primary Name"
+        }
+      ],
+      "content": "Juan Sequeda & Bryon Jacob"
+    }
+  ]
+}
